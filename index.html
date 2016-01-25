@@ -40,7 +40,13 @@
         <h1>Unbias</h1>
         <h2>A Chrome extension that removes faces and names from LinkedIn to reduce the effects of unconscious bias.</h2>
         <div class="get-unbias">
-          <button class="button-primary" onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+          <button class="button-primary" onclick="chrome.webstore.install('https://chrome.google.com/webstore/detail/amikjdcghpcjpanknfdokfpknknjifon', 
+function(d){
+   console.log('installed')
+},
+function(e){
+   console.log('not installed: '+ e)
+});" id="install-button">Add to Chrome</button>
           <script>
           if (chrome.app.isInstalled) {
           document.getElementById('install-button').style.display = 'none';
