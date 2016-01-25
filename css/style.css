@@ -1,0 +1,99 @@
+header {
+	background: linear-gradient(120deg, #018bc9, #159957);
+	min-height: 200px;
+	color: #fff;
+	text-align: center;
+}
+header h1 {
+	margin: auto;
+	padding-top: 70px;
+	font-size: 6rem;
+}
+header h2 {
+	font-size: 2rem;
+	letter-spacing: 0.1rem;
+	width: 500px;
+	max-width: 85%;
+	margin: auto;
+	margin-top: 20px;
+	opacity: 0.7;
+}
+
+header .button.button-primary{
+	color:#1EAEDB;
+	background-color: #fff;
+	border-color: #fff;
+	font-size: 1.2rem;
+}
+
+.get-unbias {
+	padding: 40px 0 50px 0;
+}
+nav {
+	background-color: #fff;
+	height:30px;
+	padding-top: 15px;
+	text-align: right;
+	color: #cfcfcf;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
+}
+nav a{
+	text-decoration: none;
+	margin:30px 10px 10px 10px;
+	color: #777;
+}
+p, h1, h2, h3, h4, h5, h6, form, .button {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+main {
+	padding-top: 40px;
+}
+img {
+	border-radius: 10px;
+	max-width: 90%;
+	display: inline-block;
+	margin-left: 20px;
+}
+.smaller-image {
+	border-radius: 10px;
+	max-width: 90%;
+	margin: 20px 0 0 0;
+}
+.row {
+	padding-bottom: 20px;
+}
+.show-name {
+	background-color:#1EAEDB;
+	color: #fff;
+}
+.hide-name:hover .show-name {
+	display:none;
+}
+.hide-name:hover:before {
+	content:"Jenny Brennan";
+}
+.button-primary.big-button {
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: none;
+	height: 60px;
+	padding-top: 12px;
+	background: linear-gradient(120deg, #018bc9, #159957);
+	border:#018bc9;
+}
+.button-primary.big-button:hover {
+	background: linear-gradient(120deg, #026D9C, #13844B);
+}
+.promo {
+	text-align: center;
+}
+.promo p {
+	padding-top: 0;
+	font-size: 1.5rem;
+	opacity: 0.7;
+}
+form input[type="submit"] {
+	line-height: 41px;
+}
