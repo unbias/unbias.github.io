@@ -97,3 +97,6 @@ img {
 form input[type="submit"] {
 	line-height: 41px;
 }
+.center-text {
+	text-align: center;
+}
